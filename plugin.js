@@ -94,7 +94,7 @@
                 if (unit1 == null) {
                     unit1 = 'km/h';
                     unit2 = 'km';
-                    alert('Do not rely on these values!\nThe presented values may be wrong.\nThis is for experimental usage only.');
+                    alert('Do not rely on these values! Values may be wrong. This is for experimental usage only.');
                 	
                 }
                 showValues();
