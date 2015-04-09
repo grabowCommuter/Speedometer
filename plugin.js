@@ -95,7 +95,8 @@
                     unit1 = 'km/h';
                     unit2 = 'km';
                     alert('Do not rely on these values! Values may be wrong. This is for experimental usage only.');
-                	
+                    localStorage.unit1 = unit1;	
+                    localStorage.unit2 = unit2;
                 }
                 showValues();
             }
