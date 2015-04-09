@@ -93,8 +93,8 @@
                 unit2 = localStorage.unit2;
                 if (unit1 == null) {
                     unit1 = 'km/h';
-                    unit2 = 'km';                    
-                }
+                    unit2 = 'km';
+                    alert('Don't rely on these values!\nThe presented values may be wrong.\nThis is for experimental usage only.');                }
                 showValues();
             }
             
